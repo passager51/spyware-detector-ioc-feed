@@ -1,0 +1,12 @@
+﻿{
+  "latest_version": "2026.04.21.001",
+  "release_date": "2026-04-21",
+  "minimum_app_version": "1.0.0",
+  "ioc_file": "ioc-current.json",
+  "sha256_file": "ioc-current.sha256",
+  "changelog": [
+    "Initial IOC feed with Pegasus and commercial stalkerware domains",
+    "Added package name indicators",
+    "Added domain subdomain matching support"
+  ]
+}

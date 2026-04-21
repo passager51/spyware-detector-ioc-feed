@@ -1,0 +1,37 @@
+﻿{
+  "version": "2026.04.21.001",
+  "release_date": "2026-04-21",
+  "source": "Controlled IOC Feed",
+  "owner": "Khireddine Garri",
+  "description": "Controlled IOC database for Android spyware and suspicious connection detection.",
+  "iocs": {
+    "domains": [
+      {"value": "bsrv.eu", "type": "domain", "severity": "high", "confidence": 90, "category": "pegasus", "description": "Pegasus NSO Group C2 domain", "first_seen": "2026-04-21", "last_updated": "2026-04-21", "enabled": true},
+      {"value": "bsrvr.eu", "type": "domain", "severity": "high", "confidence": 90, "category": "pegasus", "description": "Pegasus NSO Group C2 domain", "first_seen": "2026-04-21", "last_updated": "2026-04-21", "enabled": true},
+      {"value": "hsdns.info", "type": "domain", "severity": "high", "confidence": 85, "category": "pegasus", "description": "Pegasus C2 infrastructure", "first_seen": "2026-04-21", "last_updated": "2026-04-21", "enabled": true},
+      {"value": "mobileupdates.info", "type": "domain", "severity": "high", "confidence": 85, "category": "pegasus", "description": "Pegasus C2 infrastructure", "first_seen": "2026-04-21", "last_updated": "2026-04-21", "enabled": true},
+      {"value": "gotracking.info", "type": "domain", "severity": "high", "confidence": 85, "category": "predator", "description": "Predator Cytrox C2", "first_seen": "2026-04-21", "last_updated": "2026-04-21", "enabled": true},
+      {"value": "thetruthspy.com", "type": "domain", "severity": "high", "confidence": 90, "category": "stalkerware", "description": "TheTruthSpy stalkerware server", "first_seen": "2026-04-21", "last_updated": "2026-04-21", "enabled": true},
+      {"value": "mspy.com", "type": "domain", "severity": "high", "confidence": 90, "category": "stalkerware", "description": "mSpy commercial stalkerware", "first_seen": "2026-04-21", "last_updated": "2026-04-21", "enabled": true},
+      {"value": "flexispy.com", "type": "domain", "severity": "high", "confidence": 90, "category": "stalkerware", "description": "FlexiSpy commercial stalkerware", "first_seen": "2026-04-21", "last_updated": "2026-04-21", "enabled": true},
+      {"value": "hoverwatch.com", "type": "domain", "severity": "high", "confidence": 90, "category": "stalkerware", "description": "Hoverwatch stalkerware", "first_seen": "2026-04-21", "last_updated": "2026-04-21", "enabled": true},
+      {"value": "cocospy.com", "type": "domain", "severity": "high", "confidence": 90, "category": "stalkerware", "description": "Cocospy stalkerware", "first_seen": "2026-04-21", "last_updated": "2026-04-21", "enabled": true}
+    ],
+    "urls": [],
+    "ips": [],
+    "package_names": [
+      {"value": "com.thetruthspy.android", "severity": "high", "confidence": 90, "category": "stalkerware", "description": "TheTruthSpy stalkerware package", "enabled": true},
+      {"value": "com.mspy.android", "severity": "high", "confidence": 90, "category": "stalkerware", "description": "mSpy stalkerware package", "enabled": true},
+      {"value": "com.flexispy.android", "severity": "high", "confidence": 90, "category": "stalkerware", "description": "FlexiSpy stalkerware package", "enabled": true},
+      {"value": "com.android.provider.update", "severity": "high", "confidence": 85, "category": "fake_system", "description": "Known fake system package used by stalkerware", "enabled": true},
+      {"value": "com.system.service.update", "severity": "high", "confidence": 85, "category": "fake_system", "description": "Known fake system package", "enabled": true}
+    ],
+    "certificate_sha256": [],
+    "file_hashes_sha256": []
+  },
+  "matching_policy": {
+    "domain_matching": "exact_and_subdomain",
+    "case_sensitive": false,
+    "minimum_confidence_to_alert": 50
+  }
+}
