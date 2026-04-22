@@ -6,7 +6,7 @@
     "Split IOC into domains and packages files"
   ],
   "domainsUrl": "https://raw.githubusercontent.com/passager51/spyware-detector-ioc-feed/main/ioc-domains.json",
-  "domainsSha256": "PLACEHOLDER_DOM",
+  "domainsSha256": "4fe4cf30a9c587612efbbd5086e9a3d3cb551de588d82a44c51469d1b2abcfa4",
   "packagesUrl": "https://raw.githubusercontent.com/passager51/spyware-detector-ioc-feed/main/ioc-packages.json",
-  "packagesSha256": "PLACEHOLDER_PKG"
+  "packagesSha256": "d50bbcd86d90efd17c46c569b50d5cd2ee0f7e1202398fbd9fb94fbe43032128"
 }
