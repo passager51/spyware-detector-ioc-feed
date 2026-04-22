@@ -1,0 +1,14 @@
+﻿[
+  {"value": "bsrv.eu", "severity": "high", "confidence": 90, "category": "pegasus", "description": "Pegasus NSO Group C2"},
+  {"value": "bsrvr.eu", "severity": "high", "confidence": 90, "category": "pegasus", "description": "Pegasus NSO Group C2"},
+  {"value": "hsdns.info", "severity": "high", "confidence": 85, "category": "pegasus", "description": "Pegasus C2 infrastructure"},
+  {"value": "mobileupdates.info", "severity": "high", "confidence": 85, "category": "pegasus", "description": "Pegasus C2 infrastructure"},
+  {"value": "gotracking.info", "severity": "high", "confidence": 85, "category": "predator", "description": "Predator Cytrox C2"},
+  {"value": "thetruthspy.com", "severity": "high", "confidence": 90, "category": "stalkerware", "description": "TheTruthSpy stalkerware"},
+  {"value": "mspy.com", "severity": "high", "confidence": 90, "category": "stalkerware", "description": "mSpy stalkerware"},
+  {"value": "flexispy.com", "severity": "high", "confidence": 90, "category": "stalkerware", "description": "FlexiSpy stalkerware"},
+  {"value": "hoverwatch.com", "severity": "high", "confidence": 90, "category": "stalkerware", "description": "Hoverwatch stalkerware"},
+  {"value": "cocospy.com", "severity": "high", "confidence": 90, "category": "stalkerware", "description": "Cocospy stalkerware"},
+  {"value": "xnspy.com", "severity": "high", "confidence": 90, "category": "stalkerware", "description": "XNSPY stalkerware"},
+  {"value": "spyic.com", "severity": "high", "confidence": 90, "category": "stalkerware", "description": "Spyic stalkerware"}
+]

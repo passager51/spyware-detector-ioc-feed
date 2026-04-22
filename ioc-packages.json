@@ -1,0 +1,8 @@
+﻿[
+  {"value": "com.thetruthspy.android", "severity": "high", "confidence": 90, "category": "stalkerware", "description": "TheTruthSpy package"},
+  {"value": "com.mspy.android", "severity": "high", "confidence": 90, "category": "stalkerware", "description": "mSpy package"},
+  {"value": "com.flexispy.android", "severity": "high", "confidence": 90, "category": "stalkerware", "description": "FlexiSpy package"},
+  {"value": "com.android.provider.update", "severity": "high", "confidence": 85, "category": "fake_system", "description": "Fake system package"},
+  {"value": "com.system.service.update", "severity": "high", "confidence": 85, "category": "fake_system", "description": "Fake system package"},
+  {"value": "com.hoverwatch.android", "severity": "high", "confidence": 90, "category": "stalkerware", "description": "Hoverwatch package"}
+]

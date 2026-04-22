@@ -1,12 +1,12 @@
 ﻿{
-  "latest_version": "2026.04.21.001",
-  "release_date": "2026-04-21",
-  "minimum_app_version": "1.0.0",
-  "ioc_file": "ioc-current.json",
-  "sha256_file": "ioc-current.sha256",
-  "changelog": [
-    "Initial IOC feed with Pegasus and commercial stalkerware domains",
-    "Added package name indicators",
-    "Added domain subdomain matching support"
-  ]
+  "version": "2026.04.22.001",
+  "releaseDate": "2026-04-22",
+  "changes": [
+    "Updated manifest format to match app",
+    "Split IOC into domains and packages files"
+  ],
+  "domainsUrl": "https://raw.githubusercontent.com/passager51/spyware-detector-ioc-feed/main/ioc-domains.json",
+  "domainsSha256": "f954a2c4b0d6a1780eb1843c1888defe42703151a61c41bdc962e836f875393f",
+  "packagesUrl": "https://raw.githubusercontent.com/passager51/spyware-detector-ioc-feed/main/ioc-packages.json",
+  "packagesSha256": "f954a2c4b0d6a1780eb1843c1888defe42703151a61c41bdc962e836f875393f"
 }
