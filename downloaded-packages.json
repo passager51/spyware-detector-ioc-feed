@@ -1,4 +1,4 @@
-[
+﻿[
   {"value": "com.thetruthspy.android", "severity": "high", "confidence": 90, "category": "stalkerware", "description": "TheTruthSpy package"},
   {"value": "com.mspy.android", "severity": "high", "confidence": 90, "category": "stalkerware", "description": "mSpy package"},
   {"value": "com.flexispy.android", "severity": "high", "confidence": 90, "category": "stalkerware", "description": "FlexiSpy package"},

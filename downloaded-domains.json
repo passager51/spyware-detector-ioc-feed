@@ -1,4 +1,4 @@
-[
+﻿[
   {"value": "bsrv.eu", "severity": "high", "confidence": 90, "category": "pegasus", "description": "Pegasus NSO Group C2"},
   {"value": "bsrvr.eu", "severity": "high", "confidence": 90, "category": "pegasus", "description": "Pegasus NSO Group C2"},
   {"value": "hsdns.info", "severity": "high", "confidence": 85, "category": "pegasus", "description": "Pegasus C2 infrastructure"},

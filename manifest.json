@@ -1,4 +1,4 @@
-﻿{
+{
   "version": "2026.04.22.001",
   "releaseDate": "2026-04-22",
   "changes": [
@@ -6,7 +6,7 @@
     "Split IOC into domains and packages files"
   ],
   "domainsUrl": "https://raw.githubusercontent.com/passager51/spyware-detector-ioc-feed/main/ioc-domains.json",
-  "domainsSha256": "97d1cdf6248c464b6ffe2ba8f4ac97cf7751e23d72811f61f1fdee49a89683f4",
+  "domainsSha256": "PLACEHOLDER_DOM",
   "packagesUrl": "https://raw.githubusercontent.com/passager51/spyware-detector-ioc-feed/main/ioc-packages.json",
-  "packagesSha256": "abface9cb2b30538da30b210e7bbe43c22bfcc4f1209d0b735e26c86c31ab4dd"
+  "packagesSha256": "PLACEHOLDER_PKG"
 }
